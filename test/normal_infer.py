@@ -1,6 +1,6 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "../model"
+model_name = "../../model"
 device = "cuda"  # the device to load the model onto
 
 
