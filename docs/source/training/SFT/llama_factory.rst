@@ -1,7 +1,7 @@
 LLaMA-Factory
 ===================================
 
-Here we provide a script for supervised finetuning Qwen2 with
+Here we provide a script for supervised finetuning Qwen2.5 with
 `LLaMA-Factory <https://github.com/hiyouga/LLaMA-Factory>`__. This
 script for supervised finetuning (SFT) has the following features:
 
@@ -36,7 +36,7 @@ Data Preparation
 
 LLaMA-Factory provides several training datasets in ``data`` folder, you
 can use it directly. If you are using a custom dataset, please prepare
-your dataset as follow.
+your dataset as follows.
 
 1. Organize your data in a **json** file and put your data in ``data``
    folder. LLaMA-Factory supports dataset in ``alpaca`` or ``sharegpt``
